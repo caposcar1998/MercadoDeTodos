@@ -1,3 +1,8 @@
 .carousel-item,.carousel-inner,#carouselExampleCaptions{
     height: inherit;
 }
+
+#contenedorInferiorTab {
+    background-color: white;
+    min-height: 100px;
+}
