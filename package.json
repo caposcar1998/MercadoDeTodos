@@ -1,0 +1,39 @@
+{
+  "name": "mercadodetodos",
+  "version": "1.0.0",
+  "description": "Proyecto final de la aplicaciones web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caposcar1998/MercadoDeTodos.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "html5",
+    "responsive",
+    "bootstrap",
+    "angular"
+  ],
+  "author": "Los panas de web",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caposcar1998/MercadoDeTodos/issues"
+  },
+  "homepage": "https://github.com/caposcar1998/MercadoDeTodos#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "stylelint": "^13.7.0",
+    "watch": "^1.0.2"
+  }
+}
