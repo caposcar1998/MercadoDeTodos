@@ -1,3 +1,46 @@
-#textoPrueba {
-    color: blue;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.main-search {
+    background-image: url(../../assets/landing-image.jpg);
+    background-size: cover;
+    padding: 250px 0 30px 0
+}
+
+.main-search form {
+    position: relative;
+    width: 540px;
+    margin: 22px auto 0
+}
+
+.main-search form input[type="text"] {
+    padding: 15px 20px;
+    padding-right: 100px;
+    border-color: transparent;
+    border-radius: 4px
+}
+
+.InputBox {
+    display: block;
+    width: 100% ;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 22px;
+    border-radius: 4px
+}
+
+.main-search form input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    float: right;
+    padding: 10px 25px
+}
+
+.carousel-item,.carousel-inner,#carouselExampleCaptions{
+    height: inherit;
+}
+
+#contenedorInferiorTab {
+    background-color: white;
+    min-height: 100px;
 }
