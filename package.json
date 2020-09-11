@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+    "build-header-css": "node-sass --include-path scss scss/header.scss public/css/header.css",
+    "watch-header-css": "nodemon -e scss -x \"npm run build-header-css\" ",
     "watch-css": "nodemon -e scss -x \"npm run build-css\" "
   },
   "repository": {
