@@ -7153,13 +7153,23 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+
 #loginBody {
   background-image: url("../../assets/landing-image.jpg"); }
+
+
+#header {
+  color: blue; }
+
+.busquedaProducto {
+  margin-top: 5vh; }
+
 
 .card {
   width: 100%;
   border: 0;
   border-radius: 6vh; }
+
 
 .btn-signin, .btn-register {
   font-size: 90%;
@@ -7167,6 +7177,11 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: .2vh;
   font-weight: bold;
   padding: 1vh; }
+
+
+.carousel-item, .carousel-inner, #carouselExampleCaptions {
+  height: inherit; }
+
 
 .card-title {
   padding: 1vh;

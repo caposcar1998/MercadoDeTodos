@@ -1,5 +1,8 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+@import "../scss/header.scss";
+
+
 .busquedaProducto{
     margin-top: 5vh;
 }
@@ -16,6 +19,7 @@
     background-image: url("../../assets/landing-image.jpg");
     min-height: 30vh;
 }
+
 
 .carousel-item,.carousel-inner,#carouselExampleCaptions{
     height: inherit;
