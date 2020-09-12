@@ -1,0 +1,28 @@
+@mixin textoImportante {
+    color: $black;
+    border: 1px solid $black;
+}
+
+@mixin botonAfirmacion {
+    color: $colorPrincipal;
+    border-radius: 5vh;
+    letter-spacing: .2vh;
+    font-weight: bold;
+    padding: 1vh;
+}
+
+@mixin botonCancelar {
+    color: $colorCancelar;
+    border-radius: 5vh;
+    letter-spacing: .2vh;
+    font-weight: bold;
+    padding: 1vh; 
+}
+
+@mixin botonEdicion {
+    color: $colorEdicion;
+    border-radius: 5vh;
+    letter-spacing: .2vh;
+    font-weight: bold;
+    padding: 1vh;     
+}

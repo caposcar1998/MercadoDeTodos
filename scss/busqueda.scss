@@ -1,18 +1,18 @@
 .btn-primary {
 
-    color: white;
-    background-color: #28B463;
-    border-color: #28B463;
+    color: $blanco;
+    background-color: $colorPrincipal;
+    border-color: $colorSecundario;
     border-radius: 60px;
 }
 
 .btn-primary:hover {
-    background-color: #19A554;
-    border-color: #19A554;
+    background-color: $colorPrincipal;
+    border-color: $colorAuxiliar;
 }
 
 .card strong {
-    color: #28B463;
+    color: $colorSecundario;
 }
 .card-body a {
     display: block;

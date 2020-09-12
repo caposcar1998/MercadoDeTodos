@@ -6,12 +6,12 @@
     background-color: inherit!important;
 }
 .navbar-brand,.nav-item{
-    color:black!important;
+    color: $black ;
     font-size: 1.8vw;
     display:inherit;
 }
 .navbar-brand b{
-    color: #28B463;
+    color: $colorPrincipal;
 }
 #logo{
     height:3rem;
@@ -19,7 +19,7 @@
     margin-right: 3vw;
 }
 #header{
-    background-color: white;
+    background-color: $blanco;
     height:12vh;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
@@ -38,14 +38,14 @@
     margin-right: 0.2vh;
     border-radius: 60px;
     font-size: 2.3vh;
-    color:#28B463; 
-    background-color: #28B463;   
+    color:$colorPrincipal; 
+    background-color: $colorSecundario;   
 }
 
 .btn-head:hover{
     font-size: 2.3vh;
-    color: white!important;
-    background-color: #28B463;
+    color: $blanco!important;
+    background-color: $colorPrincipal;
 }
 .mr-auto, .mx-auto {
     margin-left: auto !important;

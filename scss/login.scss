@@ -25,7 +25,7 @@
 
 .card-title{
     padding: 1vh;
-    color: green;
+    color: $colorPrincipal;
     font-weight: bold;
     letter-spacing: .2vh;
     text-align: center;
@@ -33,7 +33,7 @@
 
 .card-paragraph{
     padding: 1vh;
-    color: black;
+    color: $black;
     letter-spacing: .1vh;
     font-size: 21px;
 
