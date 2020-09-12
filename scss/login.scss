@@ -1,7 +1,12 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 
 #loginBody {
     background-image: url("../../assets/landing-image.jpg");
+}
+
+.container-login {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card {
@@ -23,6 +28,7 @@
     color: green;
     font-weight: bold;
     letter-spacing: .2vh;
+    text-align: center;
 }
 
 .card-paragraph{
