@@ -7153,29 +7153,14 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.navbar-light, .navbar, .navbar-expand-lg {
-  -webkit-transition: all .2s ease-in;
-  -moz-transition: all .2s ease-in;
-  transition: all .2s ease-in;
-  background-color: inherit !important; }
-
-.navbar-brand, .nav-item {
-  color: black !important;
-  font-size: 1.8vw;
-  display: inherit; }
-
-.navbar-brand b {
-  color: #28B463; }
-
-#logo {
-  height: 3rem;
-  width: auto;
-  margin-right: 3vw; }
-
-#header {
-  background-color: white;
-  height: 12vh;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
+.botonBusqueda {
+  width: 100%;
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh;
+  background-color: #2A7AA0;
+  color: #fff; }
 
 .btn-head {
   -webkit-transition: all .2s ease-in;
@@ -7196,8 +7181,32 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-head:hover {
   font-size: 2.3vh;
-  color: white !important;
+  color: #ffff !important;
   background-color: #28B463; }
+
+.btn-signin {
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh;
+  background-color: #28B463;
+  color: #fff; }
+
+.btn-register {
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh;
+  background-color: #2A7AA0;
+  color: #fff; }
+
+.inicar-sesion {
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh;
+  background-color: #28B463;
+  color: #fff; }
 
 .mr-auto,
 .mx-auto {
@@ -7208,6 +7217,14 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar-brand {
     font-size: 3vw; } }
 
+.body {
+  font-family: "Raleway", sans-serif; }
+  .body .card {
+    width: 100%;
+    border: 0;
+    border-radius: 6vh;
+    color: #28B463; }
+
 .list-group-item {
   background-color: inherit; }
 
@@ -7215,31 +7232,25 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 15px; }
 
 .list-group-item:hover {
-  background-color: white;
+  background-color: #ffff;
   color: #28B463; }
+
+.busquedaPrincipal {
+  background-image: url("../../assets/landing-image.jpg");
+  min-height: 30vh; }
 
 #loginBody {
   background-image: url("../../assets/landing-image.jpg"); }
 
-.container-login {
-  margin-left: auto;
-  margin-right: auto; }
-
 .card {
   width: 100%;
   border: 0;
-  border-radius: 6vh; }
-
-.btn-signin, .btn-register {
-  font-size: 90%;
-  border-radius: 5vh;
-  letter-spacing: .2vh;
-  font-weight: bold;
-  padding: 1vh; }
+  border-radius: 6vh;
+  display: block; }
 
 .card-title {
   padding: 1vh;
-  color: green;
+  color: #28B463;
   font-weight: bold;
   letter-spacing: .2vh;
   text-align: center; }
@@ -7250,38 +7261,55 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: .1vh;
   font-size: 21px; }
 
-.btn-primary {
-  color: white;
-  background-color: #28B463;
-  border-color: #28B463;
-  border-radius: 60px; }
+.containerBusqueda {
+  min-height: 30vh; }
 
-.btn-primary:hover {
-  background-color: #19A554;
-  border-color: #19A554; }
+#contenedorInferiorTab {
+  background-color: #ffff;
+  min-height: 100px; }
 
-.card strong {
+.container-login {
+  margin-left: auto;
+  margin-right: auto; }
+
+.navbar-light, .navbar, .navbar-expand-lg {
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: inherit !important; }
+
+.navbar-brand, .nav-item {
+  color: #0000;
+  font-size: 1.8vw;
+  display: inherit; }
+
+.navbar-brand b {
   color: #28B463; }
 
-.card-body a {
-  display: block; }
+#logo {
+  height: 3rem;
+  width: auto;
+  margin-right: 3vw; }
+
+#header {
+  background-color: #ffff;
+  height: 12vh;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
+
+.mr-auto,
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important; }
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    font-size: 3vw; } }
 
 .busquedaProducto {
   width: 100%; }
 
-.containerBusqueda {
-  min-height: 30vh; }
-
 .tamanioFoto {
   max-height: 20vh; }
 
-.busquedaPrincipal {
-  background-image: url("../../assets/landing-image.jpg");
-  min-height: 30vh; }
-
 .carousel-item, .carousel-inner, #carouselExampleCaptions {
   height: inherit; }
-
-#contenedorInferiorTab {
-  background-color: white;
-  min-height: 100px; }

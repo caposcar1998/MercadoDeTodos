@@ -1,0 +1,42 @@
+
+.botonBusqueda {
+    width: 100%;
+    @include botonVario;
+}
+.btn-head{
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    font-size: 2.2vh;
+    margin-left: 0.2vh;
+    margin-right: 0.2vh;
+    border-radius: 60px;
+}
+
+.login-button{
+    margin-left: 0.2vh;
+    margin-right: 0.2vh;
+    border-radius: 60px;
+    font-size: 2.3vh;
+    color:$colorPrincipal; 
+    background-color: $colorSecundario;   
+}
+
+.btn-head:hover{
+    font-size: 2.3vh;
+    color: $blanco!important;
+    background-color: $colorPrincipal;
+}
+
+
+.btn-signin {
+    @include botonAfirmacion;
+}
+
+.btn-register{
+    @include botonVario;
+}
+
+.inicar-sesion{
+    @include botonAfirmacion;
+}
