@@ -1,0 +1,36 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+#loginBody {
+    background-image: url("../../assets/landing-image.jpg");
+}
+
+.card {
+    width: 100%;
+    border: 0;
+    border-radius: 6vh;
+}
+
+.btn-signin, .btn-register {
+    font-size: 90%;
+    border-radius: 5vh;
+    letter-spacing: .2vh;
+    font-weight: bold;
+    padding: 1vh;
+}
+
+.card-title{
+    padding: 1vh;
+    color: green;
+    font-weight: bold;
+    letter-spacing: .2vh;
+}
+
+.card-paragraph{
+    padding: 1vh;
+    color: black;
+    letter-spacing: .1vh;
+    font-size: 21px;
+
+}
+
+

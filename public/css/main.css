@@ -7154,26 +7154,43 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 
+#loginBody {
+  background-image: url("../../assets/landing-image.jpg"); }
+
+
 #header {
   color: blue; }
 
 .busquedaProducto {
   margin-top: 5vh; }
 
-.containerBusqueda {
-  min-height: 30vh; }
 
-.tamanioFoto {
-  max-height: 20vh; }
+.card {
+  width: 100%;
+  border: 0;
+  border-radius: 6vh; }
 
-.busquedaPrincipal {
-  background-image: url("../../assets/landing-image.jpg");
-  min-height: 30vh; }
+
+.btn-signin, .btn-register {
+  font-size: 90%;
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh; }
 
 
 .carousel-item, .carousel-inner, #carouselExampleCaptions {
   height: inherit; }
 
-#contenedorInferiorTab {
-  background-color: white;
-  min-height: 100px; }
+
+.card-title {
+  padding: 1vh;
+  color: green;
+  font-weight: bold;
+  letter-spacing: .2vh; }
+
+.card-paragraph {
+  padding: 1vh;
+  color: black;
+  letter-spacing: .1vh;
+  font-size: 21px; }
