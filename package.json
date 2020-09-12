@@ -6,13 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\" ",
-    "build-login": "node-sass --include-path scss scss/login.scss public/css/main.css",
-    "watch-login": "nodemon -e scss -x \"npm run build-login\""
-    "build-header-css": "node-sass --include-path scss scss/header.scss public/css/header.css",
-    "build-footer-css": "node-sass --include-path scss scss/footer.scss public/css/footer.css",
-    "watch-header-css": "nodemon -e scss -x \"npm run build-header-css\" ",
-    "watch-footer-css": "nodemon -e scss -x \"npm run build-footer-css\" ",
     "watch-css": "nodemon -e scss -x \"npm run build-css\" "
   },
   "repository": {
