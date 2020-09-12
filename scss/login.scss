@@ -1,9 +1,4 @@
 
-
-#loginBody {
-    background-image: url("../../assets/landing-image.jpg");
-}
-
 .container-login {
     margin-left: auto;
     margin-right: auto;
@@ -16,9 +11,7 @@
 }
 
 
-.inicar-sesion{
-    @include botonAfirmacion;
-}
+
 
 .card-title{
     padding: 1vh;

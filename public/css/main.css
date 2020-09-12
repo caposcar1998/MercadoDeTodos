@@ -7200,6 +7200,14 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #2A7AA0;
   color: #fff; }
 
+.inicar-sesion {
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh;
+  background-color: #28B463;
+  color: #fff; }
+
 .mr-auto,
 .mx-auto {
   margin-left: auto !important;
@@ -7227,68 +7235,12 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #ffff;
   color: #28B463; }
 
-.busquedaProducto {
-  width: 100%; }
-
-.containerBusqueda {
-  min-height: 30vh; }
-
-.tamanioFoto {
-  max-height: 20vh; }
-
 .busquedaPrincipal {
   background-image: url("../../assets/landing-image.jpg");
   min-height: 30vh; }
 
-.carousel-item, .carousel-inner, #carouselExampleCaptions {
-  height: inherit; }
-
-#contenedorInferiorTab {
-  background-color: #ffff;
-  min-height: 100px; }
-
 #loginBody {
   background-image: url("../../assets/landing-image.jpg"); }
-
-.container-login {
-  margin-left: auto;
-  margin-right: auto; }
-
-.card {
-  width: 100%;
-  border: 0;
-  border-radius: 6vh; }
-
-.inicar-sesion {
-  border-radius: 5vh;
-  letter-spacing: .2vh;
-  font-weight: bold;
-  padding: 1vh;
-  background-color: #28B463;
-  color: #fff; }
-
-.card-title {
-  padding: 1vh;
-  color: #28B463;
-  font-weight: bold;
-  letter-spacing: .2vh;
-  text-align: center; }
-
-.card-paragraph {
-  padding: 1vh;
-  color: black;
-  letter-spacing: .1vh;
-  font-size: 21px; }
-
-.btn-primary {
-  color: #ffff;
-  background-color: #28B463;
-  border-color: #28B463;
-  border-radius: 60px; }
-
-.btn-primary:hover {
-  background-color: #28B463;
-  border-color: #19A554; }
 
 .card-body a {
   display: block; }
@@ -7325,3 +7277,41 @@ a.text-dark:hover, a.text-dark:focus {
 @media screen and (max-width: 991px) {
   .navbar-brand {
     font-size: 3vw; } }
+
+.busquedaProducto {
+  width: 100%; }
+
+.containerBusqueda {
+  min-height: 30vh; }
+
+.tamanioFoto {
+  max-height: 20vh; }
+
+.carousel-item, .carousel-inner, #carouselExampleCaptions {
+  height: inherit; }
+
+#contenedorInferiorTab {
+  background-color: #ffff;
+  min-height: 100px; }
+
+.container-login {
+  margin-left: auto;
+  margin-right: auto; }
+
+.card {
+  width: 100%;
+  border: 0;
+  border-radius: 6vh; }
+
+.card-title {
+  padding: 1vh;
+  color: #28B463;
+  font-weight: bold;
+  letter-spacing: .2vh;
+  text-align: center; }
+
+.card-paragraph {
+  padding: 1vh;
+  color: black;
+  letter-spacing: .1vh;
+  font-size: 21px; }
