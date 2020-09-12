@@ -15,12 +15,9 @@
     border-radius: 6vh;
 }
 
-.btn-signin, .btn-register {
-    font-size: 90%;
-    border-radius: 5vh;
-    letter-spacing: .2vh;
-    font-weight: bold;
-    padding: 1vh;
+
+.inicar-sesion{
+    @include botonAfirmacion;
 }
 
 .card-title{
@@ -33,10 +30,9 @@
 
 .card-paragraph{
     padding: 1vh;
-    color: $black;
+    color:black;
     letter-spacing: .1vh;
     font-size: 21px;
-
 }
 
 

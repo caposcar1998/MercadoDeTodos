@@ -7153,8 +7153,80 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.botonBusqueda {
+  width: 100%;
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh;
+  background-color: #2A7AA0;
+  color: #fff; }
+
+.btn-head {
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  font-size: 2.2vh;
+  margin-left: 0.2vh;
+  margin-right: 0.2vh;
+  border-radius: 60px; }
+
+.login-button {
+  margin-left: 0.2vh;
+  margin-right: 0.2vh;
+  border-radius: 60px;
+  font-size: 2.3vh;
+  color: #28B463;
+  background-color: #28B463; }
+
+.btn-head:hover {
+  font-size: 2.3vh;
+  color: #ffff !important;
+  background-color: #28B463; }
+
+.btn-signin {
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh;
+  background-color: #28B463;
+  color: #fff; }
+
+.btn-register {
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh;
+  background-color: #2A7AA0;
+  color: #fff; }
+
+.busquedaProducto {
+  width: 100%; }
+
+.containerBusqueda {
+  min-height: 30vh; }
+
+.tamanioFoto {
+  max-height: 20vh; }
+
+.busquedaPrincipal {
+  background-image: url("../../assets/landing-image.jpg");
+  min-height: 30vh; }
+
+.carousel-item, .carousel-inner, #carouselExampleCaptions {
+  height: inherit; }
+
+#contenedorInferiorTab {
+  background-color: #ffff;
+  min-height: 100px; }
+
 .body {
   font-family: "Raleway", sans-serif; }
+  .body .card {
+    width: 100%;
+    border: 0;
+    border-radius: 6vh;
+    color: #28B463; }
 
 .navbar-light, .navbar, .navbar-expand-lg {
   -webkit-transition: all .2s ease-in;
@@ -7179,28 +7251,6 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #ffff;
   height: 12vh;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
-
-.btn-head {
-  -webkit-transition: all .2s ease-in;
-  -moz-transition: all .2s ease-in;
-  transition: all .2s ease-in;
-  font-size: 2.2vh;
-  margin-left: 0.2vh;
-  margin-right: 0.2vh;
-  border-radius: 60px; }
-
-.login-button {
-  margin-left: 0.2vh;
-  margin-right: 0.2vh;
-  border-radius: 60px;
-  font-size: 2.3vh;
-  color: #28B463;
-  background-color: #28B463; }
-
-.btn-head:hover {
-  font-size: 2.3vh;
-  color: #ffff !important;
-  background-color: #28B463; }
 
 .mr-auto,
 .mx-auto {
@@ -7233,12 +7283,13 @@ a.text-dark:hover, a.text-dark:focus {
   border: 0;
   border-radius: 6vh; }
 
-.btn-signin, .btn-register {
-  font-size: 90%;
+.inicar-sesion {
   border-radius: 5vh;
   letter-spacing: .2vh;
   font-weight: bold;
-  padding: 1vh; }
+  padding: 1vh;
+  background-color: #28B463;
+  color: #fff; }
 
 .card-title {
   padding: 1vh;
@@ -7249,29 +7300,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-paragraph {
   padding: 1vh;
-  color: #0000;
+  color: black;
   letter-spacing: .1vh;
   font-size: 21px; }
-
-.busquedaProducto {
-  width: 100%; }
-
-.containerBusqueda {
-  min-height: 30vh; }
-
-.tamanioFoto {
-  max-height: 20vh; }
-
-.busquedaPrincipal {
-  background-image: url("../../assets/landing-image.jpg");
-  min-height: 30vh; }
-
-.carousel-item, .carousel-inner, #carouselExampleCaptions {
-  height: inherit; }
-
-#contenedorInferiorTab {
-  background-color: #ffff;
-  min-height: 100px; }
 
 .btn-primary {
   color: #ffff;
@@ -7282,9 +7313,6 @@ a.text-dark:hover, a.text-dark:focus {
 .btn-primary:hover {
   background-color: #28B463;
   border-color: #19A554; }
-
-.card strong {
-  color: #28B463; }
 
 .card-body a {
   display: block; }

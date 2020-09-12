@@ -4,25 +4,45 @@
 }
 
 @mixin botonAfirmacion {
-    color: $colorPrincipal;
     border-radius: 5vh;
     letter-spacing: .2vh;
     font-weight: bold;
     padding: 1vh;
+    background-color: $colorPrincipal;
+    color:$white;
+    
 }
 
 @mixin botonCancelar {
-    color: $colorCancelar;
+    background-color: $colorCancelar;
     border-radius: 5vh;
     letter-spacing: .2vh;
     font-weight: bold;
     padding: 1vh; 
+    color:$white;
 }
 
-@mixin botonEdicion {
-    color: $colorEdicion;
+@mixin botonVario {
     border-radius: 5vh;
     letter-spacing: .2vh;
     font-weight: bold;
-    padding: 1vh;     
+    padding: 1vh;
+    background-color: $colorAuxiliarDos; 
+    color:$white;   
+}
+
+@mixin botonEdicion {
+    background-color: $colorEdicion;
+    border-radius: 5vh;
+    letter-spacing: .2vh;
+    font-weight: bold;
+    padding: 1vh;  
+    color:$white;   
+}
+
+@mixin generalCards {
+    width: 100%;
+    border: 0;
+    border-radius: 6vh;
+    color: $colorSecundario;
 }
