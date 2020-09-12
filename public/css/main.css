@@ -7242,8 +7242,35 @@ a.text-dark:hover, a.text-dark:focus {
 #loginBody {
   background-image: url("../../assets/landing-image.jpg"); }
 
-.card-body a {
+.card {
+  width: 100%;
+  border: 0;
+  border-radius: 6vh;
   display: block; }
+
+.card-title {
+  padding: 1vh;
+  color: #28B463;
+  font-weight: bold;
+  letter-spacing: .2vh;
+  text-align: center; }
+
+.card-paragraph {
+  padding: 1vh;
+  color: black;
+  letter-spacing: .1vh;
+  font-size: 21px; }
+
+.containerBusqueda {
+  min-height: 30vh; }
+
+#contenedorInferiorTab {
+  background-color: #ffff;
+  min-height: 100px; }
+
+.container-login {
+  margin-left: auto;
+  margin-right: auto; }
 
 .navbar-light, .navbar, .navbar-expand-lg {
   -webkit-transition: all .2s ease-in;
@@ -7281,37 +7308,8 @@ a.text-dark:hover, a.text-dark:focus {
 .busquedaProducto {
   width: 100%; }
 
-.containerBusqueda {
-  min-height: 30vh; }
-
 .tamanioFoto {
   max-height: 20vh; }
 
 .carousel-item, .carousel-inner, #carouselExampleCaptions {
   height: inherit; }
-
-#contenedorInferiorTab {
-  background-color: #ffff;
-  min-height: 100px; }
-
-.container-login {
-  margin-left: auto;
-  margin-right: auto; }
-
-.card {
-  width: 100%;
-  border: 0;
-  border-radius: 6vh; }
-
-.card-title {
-  padding: 1vh;
-  color: #28B463;
-  font-weight: bold;
-  letter-spacing: .2vh;
-  text-align: center; }
-
-.card-paragraph {
-  padding: 1vh;
-  color: black;
-  letter-spacing: .1vh;
-  font-size: 21px; }
