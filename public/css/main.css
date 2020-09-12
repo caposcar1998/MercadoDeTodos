@@ -7200,6 +7200,33 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #2A7AA0;
   color: #fff; }
 
+.mr-auto,
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important; }
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    font-size: 3vw; } }
+
+.body {
+  font-family: "Raleway", sans-serif; }
+  .body .card {
+    width: 100%;
+    border: 0;
+    border-radius: 6vh;
+    color: #28B463; }
+
+.list-group-item {
+  background-color: inherit; }
+
+#contenedorInferiorTab .list-group {
+  border-radius: 15px; }
+
+.list-group-item:hover {
+  background-color: #ffff;
+  color: #28B463; }
+
 .busquedaProducto {
   width: 100%; }
 
@@ -7219,57 +7246,6 @@ a.text-dark:hover, a.text-dark:focus {
 #contenedorInferiorTab {
   background-color: #ffff;
   min-height: 100px; }
-
-.body {
-  font-family: "Raleway", sans-serif; }
-  .body .card {
-    width: 100%;
-    border: 0;
-    border-radius: 6vh;
-    color: #28B463; }
-
-.navbar-light, .navbar, .navbar-expand-lg {
-  -webkit-transition: all .2s ease-in;
-  -moz-transition: all .2s ease-in;
-  transition: all .2s ease-in;
-  background-color: inherit !important; }
-
-.navbar-brand, .nav-item {
-  color: #0000;
-  font-size: 1.8vw;
-  display: inherit; }
-
-.navbar-brand b {
-  color: #28B463; }
-
-#logo {
-  height: 3rem;
-  width: auto;
-  margin-right: 3vw; }
-
-#header {
-  background-color: #ffff;
-  height: 12vh;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
-
-.mr-auto,
-.mx-auto {
-  margin-left: auto !important;
-  margin-right: 0 !important; }
-
-@media screen and (max-width: 991px) {
-  .navbar-brand {
-    font-size: 3vw; } }
-
-.list-group-item {
-  background-color: inherit; }
-
-#contenedorInferiorTab .list-group {
-  border-radius: 15px; }
-
-.list-group-item:hover {
-  background-color: #ffff;
-  color: #28B463; }
 
 #loginBody {
   background-image: url("../../assets/landing-image.jpg"); }
@@ -7316,3 +7292,36 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-body a {
   display: block; }
+
+.navbar-light, .navbar, .navbar-expand-lg {
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: inherit !important; }
+
+.navbar-brand, .nav-item {
+  color: #0000;
+  font-size: 1.8vw;
+  display: inherit; }
+
+.navbar-brand b {
+  color: #28B463; }
+
+#logo {
+  height: 3rem;
+  width: auto;
+  margin-right: 3vw; }
+
+#header {
+  background-color: #ffff;
+  height: 12vh;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
+
+.mr-auto,
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important; }
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    font-size: 3vw; } }
