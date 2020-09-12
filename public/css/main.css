@@ -14413,7 +14413,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 21px; }
 
 .busquedaProducto {
-  margin-top: 5vh; }
+  width: 100%; }
 
 .containerBusqueda {
   min-height: 30vh; }
