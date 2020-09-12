@@ -7153,6 +7153,10 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+
+#header {
+  color: blue; }
+
 .busquedaProducto {
   margin-top: 5vh; }
 
@@ -7165,6 +7169,7 @@ a.text-dark:hover, a.text-dark:focus {
 .busquedaPrincipal {
   background-image: url("../../assets/landing-image.jpg");
   min-height: 30vh; }
+
 
 .carousel-item, .carousel-inner, #carouselExampleCaptions {
   height: inherit; }
