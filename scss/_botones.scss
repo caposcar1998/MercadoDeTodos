@@ -3,6 +3,11 @@
     width: 100%;
     @include botonVario;
 }
+
+.botonBusqueda:hover, .btn-register:hover {
+    background-color: $colorAuxiliarDosOscuro;
+    color: $blanco;
+}
 .btn-head{
     -webkit-transition: all .2s ease-in;
     -moz-transition: all .2s ease-in;
@@ -19,13 +24,19 @@
     border-radius: 60px;
     font-size: 2.3vh;
     color:$colorPrincipal; 
+    color: $blanco!important;
     background-color: $colorSecundario;   
+}
+
+.btn-signin:hover {
+    color: $blanco;
+    background-color: $colorAuxiliar;
 }
 
 .btn-head:hover{
     font-size: 2.3vh;
+    background-color: $colorAuxiliar;
     color: $blanco!important;
-    background-color: $colorPrincipal;
 }
 
 
