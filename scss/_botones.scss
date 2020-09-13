@@ -24,6 +24,7 @@
     border-radius: 60px;
     font-size: 2.3vh;
     color:$colorPrincipal; 
+    color: $blanco!important;
     background-color: $colorSecundario;   
 }
 
@@ -34,8 +35,8 @@
 
 .btn-head:hover{
     font-size: 2.3vh;
+    background-color: $colorAuxiliar;
     color: $blanco!important;
-    background-color: $colorPrincipal;
 }
 
 

@@ -7181,6 +7181,7 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 60px;
   font-size: 2.3vh;
   color: #28B463;
+  color: #ffff !important;
   background-color: #28B463; }
 
 .btn-signin:hover {
@@ -7189,8 +7190,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-head:hover {
   font-size: 2.3vh;
-  color: #ffff !important;
-  background-color: #28B463; }
+  background-color: #19A554;
+  color: #ffff !important; }
 
 .btn-signin {
   border-radius: 5vh;
