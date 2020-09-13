@@ -7179,6 +7179,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #28B463;
   background-color: #28B463; }
 
+.btn-signin:hover {
+  color: #ffff;
+  background-color: #19A554; }
+
 .btn-head:hover {
   font-size: 2.3vh;
   color: #ffff !important;
