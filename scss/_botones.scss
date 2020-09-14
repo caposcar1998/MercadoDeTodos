@@ -8,6 +8,30 @@
     background-color: $colorAuxiliarDosOscuro;
     color: $blanco;
 }
+
+.botonCancelar {
+    width: 100%;
+    @include botonCancelar;
+}
+
+.botonCancelar:hover{
+    background-color: $colorCancelarOscuro;
+    color: $blanco;
+}
+
+.botonEditar {
+    width: 100%;
+    @include botonEdicion;
+}
+
+.botonCancelar:hover {
+    background-color: $colorEdicionOscuro;
+    color: $blanco;
+}
+
+
+
+
 .btn-head{
     -webkit-transition: all .2s ease-in;
     -moz-transition: all .2s ease-in;
