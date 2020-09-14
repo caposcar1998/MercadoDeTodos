@@ -24,7 +24,7 @@
     @include botonEdicion;
 }
 
-.botonCancelar:hover {
+.botonEditar:hover {
     background-color: $colorEdicionOscuro;
     color: $blanco;
 }
