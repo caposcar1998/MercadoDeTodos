@@ -10,7 +10,7 @@
 }
 
 .botonCancelar {
-    width: 100%;
+    //width: 100%; utilicen la clase d-block para que un boton ocupe todo el ancho
     @include botonCancelar;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .botonEditar {
-    width: 100%;
+    //width: 100%; utilicen la clase d-block para que un boton ocupe todo el ancho
     @include botonEdicion;
 }
 

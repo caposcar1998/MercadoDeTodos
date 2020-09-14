@@ -7167,7 +7167,6 @@ a.text-dark:hover, a.text-dark:focus {
   color: #ffff; }
 
 .botonCancelar {
-  width: 100%;
   background-color: #FF001B;
   border-radius: 5vh;
   letter-spacing: .2vh;
@@ -7180,7 +7179,6 @@ a.text-dark:hover, a.text-dark:focus {
   color: #ffff; }
 
 .botonEditar {
-  width: 100%;
   background-color: #E4EA20;
   border-radius: 5vh;
   letter-spacing: .2vh;
