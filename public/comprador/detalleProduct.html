@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Detalle producto</title>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="icon" type="image/svg" href="../assets/icono.svg">
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script> src = "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"</script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
+      <img id="logo" src="../../assets/logo.png" alt="Frijoles"><a class="navbar-brand" href="#"><b>M</b>ercado <b>P</b>ara
+        <b>T</b>odos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link btn-head" href="#">Productos<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link btn-head" href="#">Conocenos</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link btn-head" href="#">Contacto</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link login-button btn-head " href="#">Inicia sesión</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row mb-5">
+      <div class="card mt-3 col-12 col-sm-12 col-md-6 ">
+        <img src="../../assets/beans.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at eleifend velit. Vestibulum ante ipsum primis in faucibus orci luctus et 
+                ultrices posuere cubilia curae; In ac bibendum dui, ut placerat nunc. Etiam luctus dui eu ex finibus dictum. Vivamus lobortis, mi a 
+                tempus vulputate, neque felis malesuada metus, nec tincidunt urna lectus sit amet erat. Praesent id elit tortor. Maecenas at tellus ornare, 
+                commodo metus sit amet, rutrum metus. </p>
+        </div> 
+      </div>
+      <div class="card mt-3 col-12 col-sm-12 col-md-6 ">
+        <div class="card-body">
+          <h4 class="card-title">Producto 001</h4>
+          <p class="card-text">
+                <div class="row col-md-12">
+                    <div class="col-md-6">
+                        <h5><span>Precio Unitario: </span></h5>
+                        <p>1000 pesos</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5><span>Costo de envio: </span></h5>
+                        <p>114 pesos</p>
+                    </div>
+                </div>
+                <div class="row col-md-12">
+                    <div class="col-md-6">
+                        <h5><span>Presentación: </span></h5>
+                        <p>En latas</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5><span>Unidades Disponibles: </span></h5>
+                        <p>30</p>
+                    </div>
+                </div>
+                <div class="row col-md-12">
+                    <div class="col-md-6">
+                        <h5><span>Estado donde puede realizar envios: </span></h5>
+                        <p>Chihuahua</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5><span>Fecha estimada de expiración: </span></h5>
+                        <p>24/09/2020</p>
+                    </div>
+                </div>
+                <div class="row col-md-12">
+                    <div class="col-md-6">
+                        <h5><span>Fecha estimada de expiración: </span></h5>
+                        <p>24/09/2020</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5><label for="quantity">Unidades a comprar:</label></h5>
+                        <input type="number" id="quantity" name="quantity" class="form-control mb-4" min="1" max="50" step="1" value="1">
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <h5>Total a pagar: </h5>
+                    <p>1000 pesos</p>
+                </div>
+          </p>
+          <a href="#" class="btn btn-signin d-block">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="inferior-navBar" >
+            <div class="container bg-light" id="contenedorInferiorTab">
+                <div class="row">
+                    <div class="col-sm">
+                        <p class="text-center font-weight-bold">Necesitas ayuda?</p>
+                        <p class="text-left">Contacta a nuestro equipo con alguna de las siguientes opciones</p>
+                        <ul class="list-group">
+                        <li class="list-group-item"><a href="#">Correo</a></li>
+                        <li class="list-group-item"><a href="#">Comunidad</a></li>
+                        <li class="list-group-item"><a href="#">Chat en línea</a></li>
+                        <li class="list-group-item"><a href="#">Telefono</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                    <p class="text-center font-weight-bold">Realiza pedidos nacionales</p>
+                    <p class="text-center">Todos los productos son 100% mexicanos</p>
+                    <img src="../../assets/mexico.png" alt="Mapa México" class="img-fluid">
+                    </div>
+                    <div class="col-sm">
+                    <p class="text-center font-weight-bold">Seguridad, de principio a fin</p>
+                    <p class="text-center">Contamos con sistema de encriptado para que tu infromación siempre este segura</p>
+                    <img src="../../assets/candado.png" alt="Mapa México" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</body>
+
+</html>
