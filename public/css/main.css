@@ -7326,6 +7326,10 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-brand b {
   color: #28B463; }
 
+img {
+  border-style: hidden;
+  border-radius: 50%; }
+
 #logo {
   height: 3rem;
   width: auto;
