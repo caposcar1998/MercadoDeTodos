@@ -55,10 +55,9 @@
       <div class="card mt-3 col-12 col-sm-12 col-md-6 ">
         <div class="card-body">
           <h5 class="card-title">Registro de nuevo producto</h5>
-          <p class="card-text">
             <form>
                 <div class="form-group mt-3">
-                    <input type="nameProd" id="inputNameProd" class="form-control mb-4" placeholder="Nombre del Producto"> 
+                    <input type="text" id="inputNameProd" class="form-control mb-4" placeholder="Nombre del Producto"> 
                 </div>
                 <div class="form-group mt-3">
                     <input type="number" id="inputPrice" class="form-control mb-4" placeholder="Precio Unitario" min="0"> 
@@ -79,11 +78,12 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputExpireDate">Fecha estimada de expiración:</label>
+                        <label for="inputExpireDate">Fecha estimada de expiración:
+                        </label>
                         <input type="date" id="inputExpireDate" class="form-control mb-4"> 
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputDeliveryDays">Tiempo estimado de envio (en días):</label>
+                        <label for="inputDeliveryDays">Días estimados para envio:</label>
                         <input type="number" id="inputDeliveryDays" name="deliveryDays" class="form-control mb-4" min="1" max="7" step="1" value="1"> 
                     </div>
                 </div>
@@ -96,8 +96,7 @@
                     </div>
                 </div>
             </form>
-          </p>
-          <a href="#" class="btn btn-signin d-block">Registrar Producto</a>
+          <a href="../comprador/detalleProduct.html" class="btn btn-signin d-block" onclick="alert('Se ha registrado el producto exitosamente')">Registrar Producto</a>
         </div>
       </div>
     </div>
