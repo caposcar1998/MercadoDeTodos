@@ -44,11 +44,11 @@
       <form action="#">
         <input type="text" id="Form_Search" value="" placeholder="Busca productos" role="searchbox"
           class="InputBox busquedaProducto mt-4">
-        <input type="submit" id="Form_Go" class="btn botonBusqueda my-2 my-sm-0 " value="Buscar">
+        <input type="submit" id="Form_Go" class="btn botonBusqueda my-2 my-sm-0 " value="Buscar" onclick="alert('Se ha buscado un elemento')">
       </form>
     </div>
 
-    <div class="row">
+    <div class="row mb-3">
       <div class="card mt-3 col-12 col-sm-12 col-md-6 col-lg-4 -col-xl-3">
         <img src="../assets/beans.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -58,7 +58,7 @@
             <strong>Precio unitario</strong> $10.00 MXN. <br>
             <strong>Costo de envio</strong> $23.00 MXN.
           </p>
-          <a href="#" class="btn btn-signin d-block">Ver ofertas</a>
+          <a href="./comprador/detalleProduct.html" class="btn btn-signin d-block">Ver ofertas</a>
         </div>
       </div>
       <div class="card mt-3 col-12 col-sm-12 col-md-6 col-lg-4 -col-xl-3">
@@ -70,7 +70,7 @@
             <strong>Precio unitario</strong> $10.00 MXN. <br>
             <strong>Costo de envio</strong> $23.00 MXN.
           </p>
-          <a href="#" class="btn btn-signin d-block">Ver ofertas</a>
+          <a href="./comprador/detalleProduct.html" class="btn btn-signin d-block">Ver ofertas</a>
         </div>
       </div>
       <div class="card mt-3 col-12 col-sm-12 col-md-6 col-lg-4 -col-xl-3">
@@ -82,7 +82,7 @@
             <strong>Precio unitario</strong> $10.00 MXN. <br>
             <strong>Costo de envio</strong> $23.00 MXN.
           </p>
-          <a href="#" class="btn btn-signin d-block">Ver ofertas</a>
+          <a href="./comprador/detalleProduct.html" class="btn btn-signin d-block">Ver ofertas</a>
         </div>
       </div>
       <div class="card mt-3 col-12 col-sm-12 col-md-6 col-lg-4 -col-xl-3">
@@ -94,7 +94,7 @@
             <strong>Precio unitario</strong> $10.00 MXN. <br>
             <strong>Costo de envio</strong> $23.00 MXN.
           </p>
-          <a href="#" class="btn btn-signin d-block">Ver ofertas</a>
+          <a href="./comprador/detalleProduct.html" class="btn btn-signin d-block">Ver ofertas</a>
         </div>
       </div>
       <div class="card mt-3 col-12 col-sm-12 col-md-6 col-lg-4 -col-xl-3">
@@ -106,7 +106,7 @@
             <strong>Precio unitario</strong> $10.00 MXN. <br>
             <strong>Costo de envio</strong> $23.00 MXN.
           </p>
-          <a href="#" class="btn btn-signin d-block">Ver ofertas</a>
+          <a href="./comprador/detalleProduct.html" class="btn btn-signin d-block">Ver ofertas</a>
         </div>
       </div>
       <div class="card mt-3 col-12 col-sm-12 col-md-6 col-lg-4 -col-xl-3">
@@ -118,46 +118,39 @@
             <strong>Precio unitario</strong> $10.00 MXN. <br>
             <strong>Costo de envio</strong> $23.00 MXN.
           </p>
-          <a href="#" class="btn btn-signin d-block">Ver ofertas</a>
+          <a href="./comprador/detalleProduct.html" class="btn btn-signin d-block">Ver ofertas</a>
         </div>
-      </div>
-      <div class="card mt-3 col-12 col-sm-12 col-md-6 col-lg-4 -col-xl-3">
-        <img src="../assets/beans.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Frijoles</h5>
-          <p class="card-text">
-            <strong>Presentación</strong> Bolsas 1Kg.<br>
-            <strong>Precio unitario</strong> $10.00 MXN. <br>
-            <strong>Costo de envio</strong> $23.00 MXN.
-          </p>
-          <a href="#" class="btn btn-signin d-block">Ver ofertas</a>
-        </div>
-      </div>
-      <div class="card mt-3 col-12 col-sm-12 col-md-6 col-lg-4 -col-xl-3">
-        <img src="../assets/beans.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Frijoles</h5>
-          <p class="card-text">
-            <strong>Presentación</strong> Bolsas 1Kg.<br>
-            <strong>Precio unitario</strong> $10.00 MXN. <br>
-            <strong>Costo de envio</strong> $23.00 MXN.
-          </p>
-          <a href="#" class="btn btn-signin d-block">Ver ofertas</a>
-        </div>
-      </div>
-      <div class="card mt-3 col-12 col-sm-12 col-md-6 col-lg-4 -col-xl-3">
-        <img src="../assets/beans.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Frijoles</h5>
-          <p class="card-text">
-            <strong>Presentación</strong> Bolsas 1Kg.<br>
-            <strong>Precio unitario</strong> $10.00 MXN. <br>
-            <strong>Costo de envio</strong> $23.00 MXN.
-          </p>
-          <a href="#" class="btn btn-signin d-block">Ver ofertas</a>
-        </div>
+      </div>      
+    </div>
+    <div class="container">
+      <div class="inferior-navBar" >
+          <div class="container bg-light" id="contenedorInferiorTab">
+              <div class="row">
+                  <div class="col-sm">
+                      <p class="text-center font-weight-bold">Necesitas ayuda?</p>
+                      <p class="text-left">Contacta a nuestro equipo con alguna de las siguientes opciones</p>
+                      <ul class="list-group">
+                      <li class="list-group-item"><a href="#">Correo</a></li>
+                      <li class="list-group-item"><a href="#">Comunidad</a></li>
+                      <li class="list-group-item"><a href="#">Chat en línea</a></li>
+                      <li class="list-group-item"><a href="#">Telefono</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm">
+                  <p class="text-center font-weight-bold">Realiza pedidos nacionales</p>
+                  <p class="text-center">Todos los productos son 100% mexicanos</p>
+                  <img src="../../assets/mexico.png" alt="Mapa México" class="img-fluid">
+                  </div>
+                  <div class="col-sm">
+                  <p class="text-center font-weight-bold">Seguridad, de principio a fin</p>
+                  <p class="text-center">Contamos con sistema de encriptado para que tu infromación siempre este segura</p>
+                  <img src="../../assets/candado.png" alt="Mapa México" class="img-fluid">
+                  </div>
+              </div>
+          </div>
       </div>
     </div>
+  
   </div>
 </body>
 
