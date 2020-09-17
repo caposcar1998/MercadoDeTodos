@@ -52,8 +52,8 @@
                     </form>
                 </div>
                 <div class="col-sm-2 mt-3">
-                    <form action="#">
-                        <input type="submit" id="Form_Go" class="btn botonBusqueda  my-2 my-sm-0 " value="Buscar">
+                    <form action="#" onclick="alert('Se ha buscado un elemento en tu carrito')">
+                        <input type="submit" id="Search_product" class="btn botonBusqueda  my-2 my-sm-0 " value="Buscar">
                     </form>
                 </div>
                 
@@ -63,8 +63,8 @@
                     <p>Total: $500.00 </p>
                 </div>
                 <div class="col-12 col-sm-3">
-                    <form action="#">
-                        <input type="submit" id="Form_Go" class="btn login-button my-2 my-sm-0 " value="Comprar seleccionados">
+                    <form action="confirmarCompra.html">
+                        <input type="submit" id="Buy_selected" class="btn login-button my-2 my-sm-0 " value="Comprar seleccionados">
                     </form>
                 </div>
 
@@ -80,17 +80,17 @@
                 <div class="custom-control custom-checkbox image-checkbox d-inline-flex flex-column col-12 col-sm-12 col-md-5">
                     <input type="checkbox" class="custom-control-input" id="ck1a">
                     <label class="custom-control-label" for="ck1a">
-                        <img src="../../assets/beans.jpg" alt="Frijoles" class="img-fluid ">
+                        <img src="../../assets/beans.jpg"  alt="Frijoles" class="img-fluid ">
                     </label>
                 </div>
                 
                 <div class="d-inline-flex flex-column col-12 col-sm-12 col-md-3 mt-2">
                 
-                    <p class="align-self-left text-uppercase"><a href="#">Frijoles</a></p>
+                    <p class="align-self-left text-uppercase"><a href="detalleProduct.html">Frijoles</a></p>
                     <p class="align-self-left"><i>Disponible</i></p>
                     <p class="align-self-left">Cantidad: 2 kgs</p>
-                    <label for="quantity"> Unidades: 
-                        <input type="number" id="quantity" name="cantidad" min="10" max="100">
+                    <label for="quantity-1"> Unidades: 
+                        <input type="number" id="quantity-1" name="cantidad" min="10" max="100">
                     </label>
                 
 
@@ -100,8 +100,8 @@
                 <div class="d-inline-flex flex-column col-12 col-sm-12 col-md-4">
                     <p class="align-self text-right">Precio</p>
                     <p class="text-right"><b>$2,483,241.69 MXN</b></p>
-                    <form action="#" class="mt-5 ">
-                        <input type="submit" id="Form_Go" class="btn botonCancelar my-2 my-sm-0 " value="Eliminar">
+                    <form action="#" class="mt-5" onclick="alert('Haz eliminado el producto Frijoles')">
+                        <input type="submit" id="Eliminate_product-1" class="btn botonCancelar col-md-6 my-2 my-sm-0" value="Eliminar">
                     </form>
                 </div>
             </div>
@@ -118,19 +118,19 @@
                 </div>
                 
                 <div class="d-inline-flex flex-column col-12 col-sm-12 col-md-3 mt-2">
-                    <p class="align-self-left text-uppercase"><a href="#">Aguacates</a></p>
+                    <p class="align-self-left text-uppercase"><a href="detalleProduct.html">Aguacates</a></p>
                     <p class="align-self-left"><i>Disponible</i></p>
                     <p class="align-self-left">Cantidad: 2 kgs</p>
-                    <label for="quantity"> Unidades: 
-                        <input type="number" id="quantity" name="cantidad" min="10" max="100">
+                    <label for="quantity-2"> Unidades: 
+                        <input type="number" id="quantity-2" name="cantidad" min="10" max="100">
                     </label>
 
                 </div>
                 <div class="d-inline-flex flex-column col-12 col-sm-12 col-md-4">
                     <p class="align-self text-right">Precio</p>
                     <p class="text-right"><b>$2,483,241.69 MXN</b></p>
-                    <form action="#" class="mt-5 ">
-                        <input type="submit" id="Form_Go" class="btn botonCancelar my-2 my-sm-0 " value="Eliminar">
+                    <form action="#" class="mt-5" onclick= "alert('Haz eliminado el producto Aguacates')" >
+                        <input type="submit" id="Eliminate_product-2" class="btn botonCancelar col-md-6 my-2 my-sm-0" value="Eliminar">
                     </form>
                 </div>
 
@@ -139,7 +139,34 @@
 
             <hr/> <!-- Simple Línea  -->
 
-
+            <div class="container">
+                <div class="inferior-navBar" >
+                    <div class="container bg-light" id="contenedorInferiorTab">
+                        <div class="row">
+                            <div class="col-sm">
+                                <p class="text-center font-weight-bold">Necesitas ayuda?</p>
+                                <p class="text-left">Contacta a nuestro equipo con alguna de las siguientes opciones</p>
+                                <ul class="list-group">
+                                <li class="list-group-item"><a href="#">Correo</a></li>
+                                <li class="list-group-item"><a href="#">Comunidad</a></li>
+                                <li class="list-group-item"><a href="#">Chat en línea</a></li>
+                                <li class="list-group-item"><a href="#">Telefono</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm">
+                            <p class="text-center font-weight-bold">Realiza pedidos nacionales</p>
+                            <p class="text-center">Todos los productos son 100% mexicanos</p>
+                            <img src="../../assets/mexico.png" alt="Mapa México" class="img-fluid">
+                            </div>
+                            <div class="col-sm">
+                            <p class="text-center font-weight-bold">Seguridad, de principio a fin</p>
+                            <p class="text-center">Contamos con sistema de encriptado para que tu infromación siempre este segura</p>
+                            <img src="../../assets/candado.png" alt="Mapa México" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
             
             
 
