@@ -35,7 +35,9 @@
     "clean-css-cli": "^4.3.0",
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.4",
-    "stylelint": "^13.7.0",
+    "stylelint": "^13.7.1",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-scss": "^3.18.0",
     "watch": "^1.0.2"
   }
 }
