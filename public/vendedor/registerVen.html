@@ -6,11 +6,12 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <link rel="icon" type="image/svg" href="../assets/icono.svg">
+    <title>Registrar nuevo vendedor</title>
+    <link rel="icon" type="image/svg" href="../../assets/Icono.svg">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script> src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"</script>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </head>
   <body id="loginBody">
     <div class="container-login col-sm-9 col-md-7 col-lg-5">
@@ -42,12 +43,12 @@
                     <div class="form-group mt-3">
                         <input type="text" id="inputAdress" class="form-control mb-4" placeholder="Dirección de recolección de pedidos">
                     </div>
-                    <button class="btn btn-signin btn-sm inicar-sesion btn-block mb-3" type="submit">Registrar cuenta</button>
+                    <a class="btn btn-signin btn-sm inicar-sesion btn-block mb-3" type="submit" onclick="alert('Se ha registrado la cuenta exitosamente')" href="../index.html">Registrar cuenta</a>
                 </form> 
             </div>
             <div class="card-footer">
                 <p class="card-paragraph text-center mb-2">¿Ya tienes cuenta?</p>
-                <button class="btn btn-register btn-sm  btn-block mt-4 mb-3" type="submit"> Inicia Sesión </button>
+                <a class="btn btn-register btn-sm  btn-block mt-4 mb-3" type="submit" href="../login.html"> Inicia Sesión </a>
             </div>
         </div>         
     </div> <!-- End container-login -->
