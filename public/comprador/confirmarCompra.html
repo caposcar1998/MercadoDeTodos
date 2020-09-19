@@ -42,7 +42,7 @@
       <div class="card mt-3 col-12 col-sm-12 col-md-6 text-center">
         <img src="../../assets/creditcard.png" class="w-50" alt="...">
         <div class="card-body text-center">
-            <h4 class="card-title">Ingresa Nueva Tarjeta</h4>
+            <h4 class="card-title">Ingresa Tarjeta</h4>
             <form>
                 <div class="form-group mt-3">
                     <input type="number" id="inputNumTarjeta" class="form-control mb-4" placeholder="Número de tarjeta"> 
@@ -52,10 +52,10 @@
                 </div>
                 <div class="col-md-12 row">
                     <div class="col-md-6">
-                        <input type="text" id="inputExpireDate" class="form-control mb-4" placeholder="Fecha de expiración"> 
+                        <input type="text" id="inputExpireDate" pattern="\d\d/\d\d" class="form-control mb-4" placeholder="Fecha de expiración"> 
                     </div>
                     <div class="col-md-6">
-                        <input type="number" id="inputCode" class="form-control mb-4" placeholder="Codigo de seguridad"> 
+                        <input type="number" id="inputCode" class="form-control mb-4" placeholder="CVV"  min="1" max="999" > 
                     </div> 
                 </div>
             </form>
