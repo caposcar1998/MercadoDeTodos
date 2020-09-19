@@ -7162,6 +7162,14 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #2A7AA0;
   color: #fff; }
 
+.btn-register {
+  border-radius: 5vh;
+  letter-spacing: .2vh;
+  font-weight: bold;
+  padding: 1vh;
+  background-color: #2A7AA0;
+  color: #fff; }
+
 .botonBusqueda:hover, .btn-register:hover {
   background-color: #1A6A90;
   color: #ffff; }
@@ -7199,6 +7207,11 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: 0.2vh;
   border-radius: 60px; }
 
+.btn-head:hover {
+  font-size: 2.3vh;
+  background-color: #19A554;
+  color: #ffff !important; }
+
 .login-button {
   margin-left: 0.2vh;
   margin-right: 0.2vh;
@@ -7208,15 +7221,6 @@ a.text-dark:hover, a.text-dark:focus {
   color: #ffff !important;
   background-color: #28B463; }
 
-.btn-signin:hover {
-  color: #ffff;
-  background-color: #19A554; }
-
-.btn-head:hover {
-  font-size: 2.3vh;
-  background-color: #19A554;
-  color: #ffff !important; }
-
 .btn-signin {
   border-radius: 5vh;
   letter-spacing: .2vh;
@@ -7225,13 +7229,9 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #28B463;
   color: #fff; }
 
-.btn-register {
-  border-radius: 5vh;
-  letter-spacing: .2vh;
-  font-weight: bold;
-  padding: 1vh;
-  background-color: #2A7AA0;
-  color: #fff; }
+.btn-signin:hover {
+  color: #ffff;
+  background-color: #19A554; }
 
 .inicar-sesion {
   border-radius: 5vh;
