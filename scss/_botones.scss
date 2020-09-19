@@ -4,6 +4,10 @@
     @include botonVario;
 }
 
+.btn-register{
+    @include botonVario;
+}
+
 .botonBusqueda:hover, .btn-register:hover {
     background-color: $colorAuxiliarDosOscuro;
     color: $blanco;
@@ -29,9 +33,6 @@
     color: $blanco;
 }
 
-
-
-
 .btn-head{
     -webkit-transition: all .2s ease-in;
     -moz-transition: all .2s ease-in;
@@ -40,6 +41,12 @@
     margin-left: 0.2vh;
     margin-right: 0.2vh;
     border-radius: 60px;
+}
+
+.btn-head:hover{
+    font-size: 2.3vh;
+    background-color: $colorAuxiliar;
+    color: $blanco!important;
 }
 
 .login-button{
@@ -52,24 +59,13 @@
     background-color: $colorSecundario;   
 }
 
-.btn-signin:hover {
-    color: $blanco;
-    background-color: $colorAuxiliar;
-}
-
-.btn-head:hover{
-    font-size: 2.3vh;
-    background-color: $colorAuxiliar;
-    color: $blanco!important;
-}
-
-
 .btn-signin {
     @include botonAfirmacion;
 }
 
-.btn-register{
-    @include botonVario;
+.btn-signin:hover {
+    color: $blanco;
+    background-color: $colorAuxiliar;
 }
 
 .inicar-sesion{
