@@ -10,30 +10,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/main.css" />
     <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script> src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"</script>
+    <script src = "../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>Index</title>
   </head>
   <body>
 
 
+
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
-            <img id="logo" src="../assets/logo.png"><a class="navbar-brand" href="#"><b>M</b>ercado <b>P</b>ara <b>T</b>odos</a>
+            <img id="logo" alt="logo" src="../assets/logo.png"><a class="navbar-brand" href="#"><b>M</b>ercado <b>P</b>ara <b>T</b>odos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link btn-head" href="#">Productos<span class="sr-only">(current)</span></a>
+                  <a class="nav-link btn-head" href="#" onClick='alert("Productos");'  >Productos<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link btn-head" href="#">Conocenos</a>
+                  <a class="nav-link btn-head" href="#" onClick='alert("Conocenos");' >Conocenos</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link btn-head" href="#">Contacto</a>
+                  <a class="nav-link btn-head" href="#" onClick='alert("Concato");' >Contacto</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link login-button  btn-head " href="#">Inicia sesión</a>
+                  <a class="nav-link login-button  btn-head " href="./login.html">Inicia sesión</a>
                 </li>
               </ul>
             </div>
@@ -44,7 +46,7 @@
             
               <div class="container  ">
                  <div class="main-search mb-4 busquedaPrincipal  container ">
-                 <form >
+
                   <div class="container">
                     <div class="d-flex align-items-center justify-content-center containerBusqueda">
 
@@ -52,14 +54,16 @@
                           <div class="row">
                             <div class="col"></div>
                             <div class="col-6">
-                              <input type="text" id="Form_Search" value="" placeholder="Busca productos" role="searchbox" class="InputBox busquedaProducto">  
+                              <input type="text" id="Form_Search" value="" placeholder="Busca productos" role="searchbox" class="InputBox busquedaProducto"></input>  
                             </div>
                             <div class="col"></div>
                           </div>
                            <div class="row">
                             <div class="col"></div>
                             <div class="col-6">
-                              <input type="submit" id="Form_Go" class="btn  my-2 my-sm-0 botonBusqueda" value="Buscar" >
+                              <form  action="./search.html">
+                                <input type="submit" id="Form_Go" class="btn  my-2 my-sm-0 botonBusqueda" value="Buscar"></input>
+                              </form>  
                             </div>
                             <div class="col"></div>
                           </div>
@@ -67,9 +71,9 @@
                       </div>
                     </div>
                   </div>            
-                  </form>
+                
                  </div> 
-              </div>
+              
               </div>
 
               <div class="container">
@@ -113,30 +117,31 @@
               </div>
 
             
-              <div class="container">
-                <div class="inferior-navBar" >
-                    <div class="container bg-light" id="contenedorInferiorTab">
-                        <div class="row">
-                            <div class="col-sm">
-                                <p class="text-center font-weight-bold">Necesitas ayuda?</p>
-                                <p class="text-left">Contacta a nuestro equipo con alguna de las siguientes opciones</p>
-                                <ul class="list-group">
-                                <li class="list-group-item"><a href="#" onClick='alert("Abrir mandar correo");' >Correo</a></li>
-                                <li class="list-group-item"><a href="#" onClick='alert("Conoce a tu comunidad");' >Comunidad</a></li>
-                                <li class="list-group-item"><a href="#" onClick='alert("Chat en linea");' >Chat en línea</a></li>
-                                <li class="list-group-item"><a href="#" onClick='alert("5534589741");' >Telefono</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-sm">
-                            <p class="text-center font-weight-bold">Realiza pedidos nacionales</p>
-                            <p class="text-center">Todos los productos son 100% mexicanos</p>
-                            <img src="../assets/mexico.png" alt="Mapa México" class="img-fluid">
-                            </div>
-                            <div class="col-sm">
-                            <p class="text-center font-weight-bold">Seguridad, de principio a fin</p>
-                            <p class="text-center">Contamos con sistema de encriptado para que tu infromación siempre este segura</p>
-                            <img src="../assets/candado.png" alt="Mapa México" class="img-fluid">
-                            </div>
+
+            <div class="container">
+            <div class="inferior-navBar" >
+                <div class="container bg-light" id="contenedorInferiorTab">
+                    <div class="row">
+                        <div class="col-sm">
+                            <p class="text-center font-weight-bold">Necesitas ayuda?</p>
+                            <p class="text-left">Contacta a nuestro equipo con alguna de las siguientes opciones</p>
+                            <ul class="list-group">
+                            <li class="list-group-item"><a href="#" onClick='alert("Abrir mandar correo");' >Correo</a></li>
+                            <li class="list-group-item"><a href="#" onClick='alert("Conoce a tu comunidad");' >Comunidad</a></li>
+                            <li class="list-group-item"><a href="#" onClick='alert("Chat en linea");' >Chat en línea</a></li>
+                            <li class="list-group-item"><a href="#" onClick='alert("5534589741");' >Telefono</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                        <p class="text-center font-weight-bold">Realiza pedidos nacionales</p>
+                        <p class="text-center">Todos los productos son 100% mexicanos</p>
+                        <img src="../assets/mexico.png" alt="Mapa México" class="img-fluid">
+                        </div>
+                        <div class="col-sm">
+                        <p class="text-center font-weight-bold">Seguridad, de principio a fin</p>
+                        <p class="text-center">Contamos con sistema de encriptado para que tu infromación siempre este segura</p>
+                        <img src="../assets/candado.png" alt="Mapa México" class="img-fluid">
+
                         </div>
                     </div>
                 </div>
